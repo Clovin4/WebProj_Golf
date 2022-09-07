@@ -17,7 +17,7 @@ body{
 
 .container-1{
     /* front page general styling */
-    width: 80%;
+    width: 75%;
     margin: auto;
 
 }
@@ -25,7 +25,7 @@ body{
 .box-1{
     /* palette */
     background-color: teal;
-    color: whitesmoke;
+    color: black solid;
 
     /* border styling */
     border: 5px;
@@ -36,7 +36,17 @@ body{
     padding: 20px;
     margin: 20px 0;
 
+    display: flex;
+    width: 80%;
+    margin: auto;
+
     /* text location */
+    align-items: center;
+    justify-content: center;
+
+}
+.box-1 h1{
+    margin: 10px;
 }
 
 
