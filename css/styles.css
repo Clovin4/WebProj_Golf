@@ -15,6 +15,11 @@ body{
     background: radial-gradient(circle at bottom, navy 0, black 100%);
 }
 
+img{
+    height: fit-content;
+    width: fit-content;
+}
+
 .container-1{
     background: lightgreen;
     padding: 16px;
@@ -54,7 +59,7 @@ body{
     margin: 10px;
 }
 
-
+/* CSS Code used in Space Background */
 .space{
     background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
     /* border: 1px dashed rgb(27, 210, 143); */
